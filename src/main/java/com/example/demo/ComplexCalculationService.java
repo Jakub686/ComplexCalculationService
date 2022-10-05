@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ComplexCalculationService {
-
     public double add(int number1, int number2) {
         return Double.valueOf(number1) + Double.valueOf(number2);
     }
